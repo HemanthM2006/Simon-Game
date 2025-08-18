@@ -1,109 +1,94 @@
+# 🎮 Simon Game
 
-
----
-
-```markdown
-# 🎮 Simon Game  
-
-[![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white)](#)  
-[![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white)](#)  
-[![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black)](#)  
-[![jQuery](https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white)](#)  
-
-A fun and interactive **Simon Game** built with **HTML, CSS, JavaScript, and jQuery**.  
-The challenge is to remember and repeat the sequence of colors shown by the game.  
-With each level, the sequence gets longer and trickier!  
+An interactive **Simon Game Web App** built using **HTML, CSS, JavaScript, and jQuery**.  
+Repeat the sequence of colors shown by the game – with each level, the sequence gets longer and more challenging!
 
 ---
 
-## 🚀 Features
-- 🟩 Four colored buttons (green, red, yellow, blue)  
-- 🎵 Sound effects for each button  
-- 🔄 Sequence memory challenge with increasing difficulty  
-- ❌ Game-over detection + restart option  
-- 🎨 Retro-style UI with *Press Start 2P* font  
+## 🚀 Demo
+- Press any key to start the game  
+- Watch the sequence of flashes carefully  
+- Click on the colored buttons in the **same order**  
+- Try it out right now: [hemanthm2006.github.io/Simon-Game](https://hemanthm2006.github.io/Simon-Game/)
 
 ---
 
-## 🖼️ Demo
-🔗 **Live Demo:** [Click here to play](https://your-username.github.io/simon-game/) *(Replace with your actual GitHub Pages link)*  
-
-![Simon Game Screenshot](https://upload.wikimedia.org/wikipedia/commons/4/4d/Simon_Electronic_Game.jpg)  
-*(You can replace this with a real screenshot of your project)*  
-
----
-
-## 🛠️ Tech Stack
-- **HTML5** – Structure  
-- **CSS3** – Styling + animations  
+## 🛠️ Technologies Used
+- **HTML5** – Structure of the webpage  
+- **CSS3** – Styling and animations  
 - **JavaScript (ES6)** – Game logic  
-- **jQuery** – DOM manipulation & event handling  
+- **jQuery** – Event handling and effects  
+
+---
+
+## 🎵 Controls
+| Action | Color  | Sound  |
+|--------|--------|--------|
+| Click  | 🟩 Green  | green.mp3 |
+| Click  | 🟥 Red    | red.mp3   |
+| Click  | 🟨 Yellow | yellow.mp3 |
+| Click  | 🟦 Blue   | blue.mp3 |
+| ❌ Wrong | Any incorrect press | wrong.mp3 |
+
+👉 Note: The game starts with a **keyboard press**, but sequences are played by **clicking buttons**.
 
 ---
 
 ## 📂 Project Structure
+
+```text
+simon-game/
+│
+├── index.html        # Main HTML file
+├── styles.css        # Styling and layout
+├── game.js           # JavaScript game logic
+│
+├── sounds/           # Folder containing sound files
+│   ├── red.mp3
+│   ├── blue.mp3
+│   ├── green.mp3
+│   ├── yellow.mp3
+│   └── wrong.mp3
+│
+└── README.md         # Project documentation
 ```
 
-.
-├── index.html       # Main HTML file
-├── styles.css       # Styling
-├── game.js          # Game logic
-├── sounds/          # Sound files (red.mp3, blue.mp3, green.mp3, yellow\.mp3, wrong.mp3)
-└── README.md        # Documentation
+---
 
-````
+## 🎯 Features
+
+* Start game with any key press  
+* Increasingly difficult sequences as you level up  
+* Sounds + animations for each button  
+* Game-over screen with restart option  
+* Retro arcade-style design  
 
 ---
 
-## ▶️ How to Play
-1. Open the game in your browser.  
-2. Press any key to start.  
-3. Watch the sequence of flashes.  
-4. Repeat the sequence by clicking the buttons in the correct order.  
-5. Each round adds a new step.  
-6. ❌ If you make a mistake → the game ends → press any key to restart.  
+## 💻 How to Run Locally
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/HemanthM2006/Simon-Game.git
+   ```
+2. Navigate into the project folder:
+
+   ```bash
+   cd Simon-Game
+   ```
+3. Open `index.html` in your browser.
 
 ---
 
-## ⚡ Getting Started
+## 📸 Screenshot
 
-### Clone this repository:
-```bash
-git clone https://github.com/your-username/simon-game.git
-````
+<img width="600" alt="Simon Game Screenshot" src="https://github.com/HemanthM2006/Simon-Game/assets/your-screenshot-link-here" />  
 
-### Open the game:
-
-Simply open `index.html` in your browser.
+*(Replace with a real screenshot of your game running in the browser)*
 
 ---
 
-## 📦 Dependencies
+## 📜 License
 
-* jQuery (loaded via CDN in `index.html`)
-
----
-
-## ✨ Future Improvements
-
-* 📱 Mobile-friendly design
-* 🏆 Leaderboard with high scores
-* 🎨 Theme customization (dark/light modes)
-* 🎶 More sound effects
-
----
-
-## 👨‍💻 Author
-
-**Hemanth M**
-
-💡 Contributions, issues, and feature requests are welcome!
-
----
-
-## ⭐ Support
-
-If you like this project, **give it a star ⭐** on GitHub!
-
-```
-
+This project is licensed under the **MIT License** – you are free to use, modify, and share it.
