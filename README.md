@@ -83,9 +83,7 @@ simon-game/
 
 ## 📸 Screenshot
 
-<img width="600" alt="Simon Game Screenshot" src="https://github.com/HemanthM2006/Simon-Game/assets/your-screenshot-link-here" />  
-
-*(Replace with a real screenshot of your game running in the browser)*
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/9835e81f-22ed-4579-ba86-cae9fe0d3188" />
 
 ---
 
